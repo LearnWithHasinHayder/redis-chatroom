@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    overflow: hidden;
+}
+.title{
+    padding:10px 0px;
+    border-bottom:1px solid #ccc;
+}
+
+.title p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.chat-body{
+    background-color: #eee;
+    height:70vh;
+    overflow-y: scroll;
+    padding:10px;
+}
+.chat-message{
+    background-color: #bbb;
+    padding:1px 0px;
+}
+
+#chat-text{
+    height:100px;
+    width:100%;
+    font-size: 28px;
+    padding:10px;
+}
